@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Luckiest+Guy|Raleway:400,300,500,700,600);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather+Sans:400,800italic,300,300italic,400italic,700,800,700italic);
+
+body {
+	width: 100%;
+	display: block;
+	position: relative;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.container {
+	/*max-width: 1280px;*/
+	width: 50%;
+	margin: 0 auto;
+}
+
+.containerimage {
+	width: 565px;
+	margin: 0 auto;
+	
+}
+
+.logo-img {
+	display: inline-block;
+	margin: 0 auto;
+	height: 94px;
+}
+
+
+a {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	padding: 0 50px 0;
+}
+
+.wrap {
+	margin-top: 10px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.holder {
+	background-color: white;
+	color: black;
+	width: 74%;
+	height: auto;
+	/*margin-top: 10px;
+	padding: 10px 0 10px 0;*/
+	position: relative;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+
+.holder p {
+	margin: 20px;
+}
+
+button {
+	display: block;
+	position: relative;
+	margin: 10px auto;
+	padding: 10px;
+	font-size: 20px;
+	background-color: #DCBA37;
+	color: #FFFFFF;
+	border-radius: 15px;
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+	body {
+		width: 100%;
+		display: block;
+		margin: 0 auto 0 auto;
+	}
+}
+
+@font-face {
+	font-family: AachenStd;
+	src: url(Aachen Std Medium.otf) format('opentype'), url('trn_cover.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*@media (max-width: 700px) {
+  .container {
+    width: 100%;
+    padding: 30px;
+}
+
+.anti,
+.holder {
+	display: block;
+	width: 100%;
+	padding: 10px;
+}
+
+
+}*/
